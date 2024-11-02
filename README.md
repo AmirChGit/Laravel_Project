@@ -44,12 +44,15 @@ Start the development server:
 php artisan serve
 In another terminal, run the Vite development server:
 
-npm run dev
+npm run dev 
+
 API Endpoints
+
 Authentication
 POST /signup - Register a new user.
 POST /login - Log in an existing user.
 POST /logout - Log out the authenticated user.
+
 User Management (Authenticated Routes)
 GET /user - Retrieve the authenticated user's details.
 GET /users - List all users (requires authentication).
